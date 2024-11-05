@@ -1,0 +1,28 @@
+.img_carrusel{
+    object-fit: cover;
+}
+#button{
+    display: block;
+    margin: 0 auto;
+}
+.errores{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+.hideData{
+    opacity: 0;
+    visibility: hidden;
+    transition: all .2s ease;
+}
+.showData{
+    opacity: 1;
+    visibility: visible;
+    transition: all .4s ease;
+}
+.spinnerJ{
+    display: flex;
+    text-align: center;
+    margin: 2rem auto 2rem auto;
+}
